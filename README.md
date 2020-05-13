@@ -22,7 +22,7 @@
 ### 步骤2：安装依赖
 1. 在项目根目录（react-native-trtc）下使用控制台运行
 ```
-npm start
+npm install
 ```
 
 2. 在react-native-trtc/ios/TRTCSimpleDemo/目录下运行
@@ -45,7 +45,7 @@ pod install
 ```
 npm start
 ```
-2. 确保手机与开发电脑在同一局域网下，配置[MainViewController.swift](react-native-trtc/ios/TRTCSimpleDemo/Main/MainViewController.swift )中的“jsCodeLocation”
+2. 确保手机与开发电脑在同一局域网下，配置[MainViewController.swift](ios/TRTCSimpleDemo/Main/MainViewController.swift )中的“jsCodeLocation”
 ```
 override func loadView() {
     let jsCodeLocation = URL(string: "http://【在这里填写开发服务器的地址】:8081/index.bundle?platform=ios")
