@@ -1,0 +1,653 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		040131F4B81149B7BDE6877A /* Entypo.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 449C7C41CB4044CA8D157C36 /* Entypo.ttf */; };
+		13E857A33DD8493E9A984016 /* EvilIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 253823A22CE54F64A98E6A50 /* EvilIcons.ttf */; };
+		1BC0B88D6E3147A292E05E44 /* FontAwesome5_Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 47836469F68641EEA67A7A16 /* FontAwesome5_Regular.ttf */; };
+		1CF95F3B2E504FE8A92F7397 /* FontAwesome5_Brands.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 3E92827D2FF64CB1A15B8491 /* FontAwesome5_Brands.ttf */; };
+		1D2194DC3026464197B192C9 /* MaterialCommunityIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = BDEB996B2B1C49A9B3AB3E58 /* MaterialCommunityIcons.ttf */; };
+		2D405CBFBCBD4EABBCC4C5B1 /* SimpleLineIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9D4AD7E1472B4974A8111AB9 /* SimpleLineIcons.ttf */; };
+		4D5C0B4A476047278E38BD1B /* Foundation.ttf in Resources */ = {isa = PBXBuildFile; fileRef = D40C632802BF43CB995845AF /* Foundation.ttf */; };
+		5F3C1C2045F34450815641AB /* Fontisto.ttf in Resources */ = {isa = PBXBuildFile; fileRef = E5892D0EE20E430DA778A503 /* Fontisto.ttf */; };
+		65D8014622C6E15224A450A2 /* Pods_TRTCSimpleDemo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 460B33949D71949853747957 /* Pods_TRTCSimpleDemo.framework */; };
+		686EE06DF7F641D7899572A5 /* FontAwesome.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B0A154A1D2044345AA03ABEA /* FontAwesome.ttf */; };
+		7E57C6C0245C62EB003F4486 /* ReactNativeTRTC.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57C6BF245C62EB003F4486 /* ReactNativeTRTC.m */; };
+		7E57C6C3245C6309003F4486 /* ReactNativeTRTC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E57C6C2245C6309003F4486 /* ReactNativeTRTC.swift */; };
+		7E57C6CA245EBA26003F4486 /* VideoViewManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57C6C9245EBA26003F4486 /* VideoViewManager.m */; };
+		7E57C6CF245EC900003F4486 /* VideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7E57C6CE245EC900003F4486 /* VideoView.m */; };
+		7EA479832455BEFB00DB8512 /* MainViewControllerBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = 7EA479822455BEFB00DB8512 /* MainViewControllerBridge.m */; };
+		812E148E241257D200642B19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 812E1481241257D200642B19 /* Assets.xcassets */; };
+		812E148F241257D200642B19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 812E1482241257D200642B19 /* LaunchScreen.storyboard */; };
+		812E1490241257D200642B19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812E1484241257D200642B19 /* AppDelegate.swift */; };
+		812E14972412585600642B19 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812E14962412585600642B19 /* MainViewController.swift */; };
+		812E14992412589100642B19 /* RTCViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812E14982412589100642B19 /* RTCViewController.swift */; };
+		812E149B241258AA00642B19 /* RTC.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 812E149A241258AA00642B19 /* RTC.storyboard */; };
+		812E14A424125B6000642B19 /* LiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 812E14A324125B6000642B19 /* LiveViewController.swift */; };
+		812E14A62412601E00642B19 /* Live.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 812E14A52412601E00642B19 /* Live.storyboard */; };
+		817262A82416C68400265751 /* LivePushViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 817262A72416C68400265751 /* LivePushViewController.swift */; };
+		81E3C986241820EA00366606 /* LiveSubVideoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 81E3C985241820EA00366606 /* LiveSubVideoView.swift */; };
+		8AAF313E2CE847BE80B94A71 /* Zocial.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 228EA05004D04F94B66705E0 /* Zocial.ttf */; };
+		8C06832C603C4B49B2E44FEF /* Octicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B1173EA034B94F5E9BC30AD2 /* Octicons.ttf */; };
+		905A0CCB64374BC2A7ABBBB1 /* FontAwesome5_Solid.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 753613047CA84D569D9B6854 /* FontAwesome5_Solid.ttf */; };
+		A3E2F6396FE54D3E8DA36E9F /* Feather.ttf in Resources */ = {isa = PBXBuildFile; fileRef = AFAA967CFDC94DA091BAEB18 /* Feather.ttf */; };
+		B08D1BD9D754478897148E31 /* Ionicons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 9B5DFCAE6BBC48219F7AE109 /* Ionicons.ttf */; };
+		D2C1B02ACF794915B75ED92D /* AntDesign.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 1260ECB4A169477ABF05447D /* AntDesign.ttf */; };
+		F3BD42522C7841F5ACA1B5EA /* MaterialIcons.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 08A7070AF94144D597B88CE6 /* MaterialIcons.ttf */; };
+		FD28D3F124162E2B0080B8A0 /* RTCEntranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD28D3F024162E2B0080B8A0 /* RTCEntranceViewController.swift */; };
+		FD3B3A192423B5B8001720A3 /* GenerateTestUserSig.m in Sources */ = {isa = PBXBuildFile; fileRef = FD3B3A172423B5B8001720A3 /* GenerateTestUserSig.m */; };
+		FDB94D0C2417BC6000C2AC28 /* LivePlayViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDB94D0B2417BC6000C2AC28 /* LivePlayViewController.swift */; };
+		FDCEFF4B241BBDD6000BFA0B /* TXLiteAVSDK_TRTC.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCEFF4A241BBDD6000BFA0B /* TXLiteAVSDK_TRTC.framework */; };
+		FDCEFF4D241BBDEB000BFA0B /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCEFF4C241BBDEB000BFA0B /* libc++.tbd */; };
+		FDCEFF4F241BBDF1000BFA0B /* libiconv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FDCEFF4E241BBDF1000BFA0B /* libiconv.tbd */; };
+		FDD9E0302440840900FD5B5A /* libresolv.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FDD9E02F2440840900FD5B5A /* libresolv.tbd */; };
+		FDF543BF241A0A2700F21B2A /* LiveRoomManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FDF543BE241A0A2700F21B2A /* LiveRoomManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		08A7070AF94144D597B88CE6 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		1260ECB4A169477ABF05447D /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		228EA05004D04F94B66705E0 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		253823A22CE54F64A98E6A50 /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		3D0E89BA88D047E79FCF067C /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		3E4059790A6A4D64AC71B91A /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		3E92827D2FF64CB1A15B8491 /* FontAwesome5_Brands.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Brands.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Brands.ttf"; sourceTree = "<group>"; };
+		449C7C41CB4044CA8D157C36 /* Entypo.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Entypo.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Entypo.ttf"; sourceTree = "<group>"; };
+		460B33949D71949853747957 /* Pods_TRTCSimpleDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TRTCSimpleDemo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		47836469F68641EEA67A7A16 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		6BDE346B1AA54FB09B538175 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		753613047CA84D569D9B6854 /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		7E57C6BF245C62EB003F4486 /* ReactNativeTRTC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ReactNativeTRTC.m; sourceTree = "<group>"; };
+		7E57C6C1245C62F9003F4486 /* ReactNativeTRTC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ReactNativeTRTC.h; sourceTree = "<group>"; };
+		7E57C6C2245C6309003F4486 /* ReactNativeTRTC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ReactNativeTRTC.swift; sourceTree = "<group>"; };
+		7E57C6C8245EBA26003F4486 /* VideoViewManager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoViewManager.h; sourceTree = "<group>"; };
+		7E57C6C9245EBA26003F4486 /* VideoViewManager.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoViewManager.m; sourceTree = "<group>"; };
+		7E57C6CD245EC900003F4486 /* VideoView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = VideoView.h; sourceTree = "<group>"; };
+		7E57C6CE245EC900003F4486 /* VideoView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VideoView.m; sourceTree = "<group>"; };
+		7EA479812455BE2000DB8512 /* MainViewControllerBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainViewControllerBridge.h; sourceTree = "<group>"; };
+		7EA479822455BEFB00DB8512 /* MainViewControllerBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainViewControllerBridge.m; sourceTree = "<group>"; };
+		812E142E2412403400642B19 /* SimpleDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SimpleDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		812E1481241257D200642B19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		812E1483241257D200642B19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		812E1484241257D200642B19 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		812E1485241257D200642B19 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		812E1487241257D200642B19 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		812E14962412585600642B19 /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		812E14982412589100642B19 /* RTCViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTCViewController.swift; sourceTree = "<group>"; };
+		812E149A241258AA00642B19 /* RTC.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = RTC.storyboard; sourceTree = "<group>"; };
+		812E14A1241259DE00642B19 /* TRTCSimpleDemo-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TRTCSimpleDemo-Bridging-Header.h"; sourceTree = "<group>"; };
+		812E14A324125B6000642B19 /* LiveViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveViewController.swift; sourceTree = "<group>"; };
+		812E14A52412601E00642B19 /* Live.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Live.storyboard; sourceTree = "<group>"; };
+		817262A72416C68400265751 /* LivePushViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePushViewController.swift; sourceTree = "<group>"; };
+		81E3C985241820EA00366606 /* LiveSubVideoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveSubVideoView.swift; sourceTree = "<group>"; };
+		86D83B858B9CD6F48E284F6B /* Pods-TRTCSimpleDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRTCSimpleDemo.release.xcconfig"; path = "Target Support Files/Pods-TRTCSimpleDemo/Pods-TRTCSimpleDemo.release.xcconfig"; sourceTree = "<group>"; };
+		91632D81106644D7939727CD /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		9B5DFCAE6BBC48219F7AE109 /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		9D0F2E443D484177A057795A /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		9D4AD7E1472B4974A8111AB9 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		A13CE8F8501B43CE96F7460D /* AntDesign.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = AntDesign.ttf; path = "../node_modules/react-native-vector-icons/Fonts/AntDesign.ttf"; sourceTree = "<group>"; };
+		A5D360B98D3F4C0B8CEFC31D /* EvilIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = EvilIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/EvilIcons.ttf"; sourceTree = "<group>"; };
+		AC2ECCEB427541448BECF48F /* FontAwesome5_Solid.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Solid.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Solid.ttf"; sourceTree = "<group>"; };
+		AC5A53FBF108424F965746E6 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		AFAA967CFDC94DA091BAEB18 /* Feather.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Feather.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Feather.ttf"; sourceTree = "<group>"; };
+		B0A154A1D2044345AA03ABEA /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		B1173EA034B94F5E9BC30AD2 /* Octicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Octicons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Octicons.ttf"; sourceTree = "<group>"; };
+		BDEB996B2B1C49A9B3AB3E58 /* MaterialCommunityIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialCommunityIcons.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf"; sourceTree = "<group>"; };
+		D1FFA7F8E251A044AF05C5BB /* Pods-TRTCSimpleDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TRTCSimpleDemo.debug.xcconfig"; path = "Target Support Files/Pods-TRTCSimpleDemo/Pods-TRTCSimpleDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		D40C632802BF43CB995845AF /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		D4341A6AD31D48FE948C31E4 /* FontAwesome5_Regular.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome5_Regular.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome5_Regular.ttf"; sourceTree = "<group>"; };
+		D4EA1DA7788E420A9AA456BC /* FontAwesome.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = FontAwesome.ttf; path = "../node_modules/react-native-vector-icons/Fonts/FontAwesome.ttf"; sourceTree = "<group>"; };
+		E00561A82E5648758BA1E9BA /* Ionicons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Ionicons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Ionicons.ttf"; sourceTree = "<group>"; };
+		E1A2C1BEA67142B1B0170684 /* Zocial.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Zocial.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Zocial.ttf"; sourceTree = "<group>"; };
+		E2315B5F3D714F328C45B4D2 /* MaterialIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = MaterialIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/MaterialIcons.ttf"; sourceTree = "<group>"; };
+		E5892D0EE20E430DA778A503 /* Fontisto.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Fontisto.ttf; path = "../../node_modules/react-native-vector-icons/Fonts/Fontisto.ttf"; sourceTree = "<group>"; };
+		E7F6AAAE0AF84F8BB66F4CC4 /* SimpleLineIcons.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = SimpleLineIcons.ttf; path = "../node_modules/react-native-vector-icons/Fonts/SimpleLineIcons.ttf"; sourceTree = "<group>"; };
+		EF842DFA6B0C46FCA3FDA385 /* Foundation.ttf */ = {isa = PBXFileReference; explicitFileType = undefined; fileEncoding = 9; includeInIndex = 0; lastKnownFileType = unknown; name = Foundation.ttf; path = "../node_modules/react-native-vector-icons/Fonts/Foundation.ttf"; sourceTree = "<group>"; };
+		FD28D3F024162E2B0080B8A0 /* RTCEntranceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTCEntranceViewController.swift; sourceTree = "<group>"; };
+		FD3B3A172423B5B8001720A3 /* GenerateTestUserSig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GenerateTestUserSig.m; sourceTree = "<group>"; };
+		FD3B3A182423B5B8001720A3 /* GenerateTestUserSig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GenerateTestUserSig.h; sourceTree = "<group>"; };
+		FDB94D0B2417BC6000C2AC28 /* LivePlayViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LivePlayViewController.swift; sourceTree = "<group>"; };
+		FDCEFF4A241BBDD6000BFA0B /* TXLiteAVSDK_TRTC.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = TXLiteAVSDK_TRTC.framework; path = ../SDK/TXLiteAVSDK_TRTC.framework; sourceTree = "<group>"; };
+		FDCEFF4C241BBDEB000BFA0B /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		FDCEFF4E241BBDF1000BFA0B /* libiconv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libiconv.tbd; path = usr/lib/libiconv.tbd; sourceTree = SDKROOT; };
+		FDD9E02F2440840900FD5B5A /* libresolv.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libresolv.tbd; path = usr/lib/libresolv.tbd; sourceTree = SDKROOT; };
+		FDF543BE241A0A2700F21B2A /* LiveRoomManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveRoomManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		812E142B2412403400642B19 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FDD9E0302440840900FD5B5A /* libresolv.tbd in Frameworks */,
+				FDCEFF4F241BBDF1000BFA0B /* libiconv.tbd in Frameworks */,
+				FDCEFF4D241BBDEB000BFA0B /* libc++.tbd in Frameworks */,
+				FDCEFF4B241BBDD6000BFA0B /* TXLiteAVSDK_TRTC.framework in Frameworks */,
+				65D8014622C6E15224A450A2 /* Pods_TRTCSimpleDemo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01F37E9ED281425382EE8B59 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				A13CE8F8501B43CE96F7460D /* AntDesign.ttf */,
+				3D0E89BA88D047E79FCF067C /* Entypo.ttf */,
+				A5D360B98D3F4C0B8CEFC31D /* EvilIcons.ttf */,
+				6BDE346B1AA54FB09B538175 /* Feather.ttf */,
+				D4EA1DA7788E420A9AA456BC /* FontAwesome.ttf */,
+				3E4059790A6A4D64AC71B91A /* FontAwesome5_Brands.ttf */,
+				D4341A6AD31D48FE948C31E4 /* FontAwesome5_Regular.ttf */,
+				AC2ECCEB427541448BECF48F /* FontAwesome5_Solid.ttf */,
+				AC5A53FBF108424F965746E6 /* Fontisto.ttf */,
+				EF842DFA6B0C46FCA3FDA385 /* Foundation.ttf */,
+				E00561A82E5648758BA1E9BA /* Ionicons.ttf */,
+				91632D81106644D7939727CD /* MaterialCommunityIcons.ttf */,
+				E2315B5F3D714F328C45B4D2 /* MaterialIcons.ttf */,
+				9D0F2E443D484177A057795A /* Octicons.ttf */,
+				E7F6AAAE0AF84F8BB66F4CC4 /* SimpleLineIcons.ttf */,
+				E1A2C1BEA67142B1B0170684 /* Zocial.ttf */,
+				1260ECB4A169477ABF05447D /* AntDesign.ttf */,
+				449C7C41CB4044CA8D157C36 /* Entypo.ttf */,
+				253823A22CE54F64A98E6A50 /* EvilIcons.ttf */,
+				AFAA967CFDC94DA091BAEB18 /* Feather.ttf */,
+				B0A154A1D2044345AA03ABEA /* FontAwesome.ttf */,
+				3E92827D2FF64CB1A15B8491 /* FontAwesome5_Brands.ttf */,
+				47836469F68641EEA67A7A16 /* FontAwesome5_Regular.ttf */,
+				753613047CA84D569D9B6854 /* FontAwesome5_Solid.ttf */,
+				E5892D0EE20E430DA778A503 /* Fontisto.ttf */,
+				D40C632802BF43CB995845AF /* Foundation.ttf */,
+				9B5DFCAE6BBC48219F7AE109 /* Ionicons.ttf */,
+				BDEB996B2B1C49A9B3AB3E58 /* MaterialCommunityIcons.ttf */,
+				08A7070AF94144D597B88CE6 /* MaterialIcons.ttf */,
+				B1173EA034B94F5E9BC30AD2 /* Octicons.ttf */,
+				9D4AD7E1472B4974A8111AB9 /* SimpleLineIcons.ttf */,
+				228EA05004D04F94B66705E0 /* Zocial.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		7E57C6BE245C6213003F4486 /* RCTWrapper */ = {
+			isa = PBXGroup;
+			children = (
+				7E57C6C4245EADB5003F4486 /* RCTVideoView */,
+				7E57C6BF245C62EB003F4486 /* ReactNativeTRTC.m */,
+				7E57C6C1245C62F9003F4486 /* ReactNativeTRTC.h */,
+				7E57C6C2245C6309003F4486 /* ReactNativeTRTC.swift */,
+			);
+			path = RCTWrapper;
+			sourceTree = "<group>";
+		};
+		7E57C6C4245EADB5003F4486 /* RCTVideoView */ = {
+			isa = PBXGroup;
+			children = (
+				7E57C6C8245EBA26003F4486 /* VideoViewManager.h */,
+				7E57C6C9245EBA26003F4486 /* VideoViewManager.m */,
+				7E57C6CD245EC900003F4486 /* VideoView.h */,
+				7E57C6CE245EC900003F4486 /* VideoView.m */,
+			);
+			path = RCTVideoView;
+			sourceTree = "<group>";
+		};
+		812E14252412403400642B19 = {
+			isa = PBXGroup;
+			children = (
+				812E1487241257D200642B19 /* README.md */,
+				7E57C6BE245C6213003F4486 /* RCTWrapper */,
+				812E148D241257D200642B19 /* RTC */,
+				812E1486241257D200642B19 /* Live */,
+				812E1488241257D200642B19 /* Main */,
+				FD3B3A162423B5B8001720A3 /* debug */,
+				812E1480241257D200642B19 /* TRTCSimpleDemo */,
+				812E142F2412403400642B19 /* Products */,
+				C2D3A67E7F4AD77B3A644C16 /* Frameworks */,
+				BA489DC2235E3E83FBB67F6A /* Pods */,
+				01F37E9ED281425382EE8B59 /* Resources */,
+			);
+			sourceTree = "<group>";
+		};
+		812E142F2412403400642B19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				812E142E2412403400642B19 /* SimpleDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		812E1480241257D200642B19 /* TRTCSimpleDemo */ = {
+			isa = PBXGroup;
+			children = (
+				812E1484241257D200642B19 /* AppDelegate.swift */,
+				812E1485241257D200642B19 /* Info.plist */,
+				812E1481241257D200642B19 /* Assets.xcassets */,
+				812E1482241257D200642B19 /* LaunchScreen.storyboard */,
+				812E14A1241259DE00642B19 /* TRTCSimpleDemo-Bridging-Header.h */,
+			);
+			path = TRTCSimpleDemo;
+			sourceTree = "<group>";
+		};
+		812E1486241257D200642B19 /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				817262A72416C68400265751 /* LivePushViewController.swift */,
+				FDB94D0B2417BC6000C2AC28 /* LivePlayViewController.swift */,
+				812E14A324125B6000642B19 /* LiveViewController.swift */,
+				81E3C985241820EA00366606 /* LiveSubVideoView.swift */,
+				FDF543BE241A0A2700F21B2A /* LiveRoomManager.swift */,
+				812E14A52412601E00642B19 /* Live.storyboard */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		812E1488241257D200642B19 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				812E14962412585600642B19 /* MainViewController.swift */,
+				7EA479812455BE2000DB8512 /* MainViewControllerBridge.h */,
+				7EA479822455BEFB00DB8512 /* MainViewControllerBridge.m */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		812E148D241257D200642B19 /* RTC */ = {
+			isa = PBXGroup;
+			children = (
+				FD28D3F024162E2B0080B8A0 /* RTCEntranceViewController.swift */,
+				812E14982412589100642B19 /* RTCViewController.swift */,
+				812E149A241258AA00642B19 /* RTC.storyboard */,
+			);
+			path = RTC;
+			sourceTree = "<group>";
+		};
+		BA489DC2235E3E83FBB67F6A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D1FFA7F8E251A044AF05C5BB /* Pods-TRTCSimpleDemo.debug.xcconfig */,
+				86D83B858B9CD6F48E284F6B /* Pods-TRTCSimpleDemo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		C2D3A67E7F4AD77B3A644C16 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDD9E02F2440840900FD5B5A /* libresolv.tbd */,
+				FDCEFF4E241BBDF1000BFA0B /* libiconv.tbd */,
+				FDCEFF4C241BBDEB000BFA0B /* libc++.tbd */,
+				FDCEFF4A241BBDD6000BFA0B /* TXLiteAVSDK_TRTC.framework */,
+				460B33949D71949853747957 /* Pods_TRTCSimpleDemo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FD3B3A162423B5B8001720A3 /* debug */ = {
+			isa = PBXGroup;
+			children = (
+				FD3B3A172423B5B8001720A3 /* GenerateTestUserSig.m */,
+				FD3B3A182423B5B8001720A3 /* GenerateTestUserSig.h */,
+			);
+			path = debug;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		812E142D2412403400642B19 /* TRTCSimpleDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 812E14422412403600642B19 /* Build configuration list for PBXNativeTarget "TRTCSimpleDemo" */;
+			buildPhases = (
+				FB3CDA309A6E7F33FB42C3A0 /* [CP] Check Pods Manifest.lock */,
+				812E142A2412403400642B19 /* Sources */,
+				812E142B2412403400642B19 /* Frameworks */,
+				812E142C2412403400642B19 /* Resources */,
+				7E6017B7E697DE7C94F8BF00 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TRTCSimpleDemo;
+			productName = TRTCSimpleDemo;
+			productReference = 812E142E2412403400642B19 /* SimpleDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		812E14262412403400642B19 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Tencent;
+				TargetAttributes = {
+					812E142D2412403400642B19 = {
+						CreatedOnToolsVersion = 11.3.1;
+						LastSwiftMigration = 1130;
+					};
+				};
+			};
+			buildConfigurationList = 812E14292412403400642B19 /* Build configuration list for PBXProject "TRTCSimpleDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 812E14252412403400642B19;
+			productRefGroup = 812E142F2412403400642B19 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				812E142D2412403400642B19 /* TRTCSimpleDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		812E142C2412403400642B19 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				812E148E241257D200642B19 /* Assets.xcassets in Resources */,
+				812E14A62412601E00642B19 /* Live.storyboard in Resources */,
+				812E149B241258AA00642B19 /* RTC.storyboard in Resources */,
+				812E148F241257D200642B19 /* LaunchScreen.storyboard in Resources */,
+				D2C1B02ACF794915B75ED92D /* AntDesign.ttf in Resources */,
+				040131F4B81149B7BDE6877A /* Entypo.ttf in Resources */,
+				13E857A33DD8493E9A984016 /* EvilIcons.ttf in Resources */,
+				A3E2F6396FE54D3E8DA36E9F /* Feather.ttf in Resources */,
+				686EE06DF7F641D7899572A5 /* FontAwesome.ttf in Resources */,
+				1CF95F3B2E504FE8A92F7397 /* FontAwesome5_Brands.ttf in Resources */,
+				1BC0B88D6E3147A292E05E44 /* FontAwesome5_Regular.ttf in Resources */,
+				905A0CCB64374BC2A7ABBBB1 /* FontAwesome5_Solid.ttf in Resources */,
+				5F3C1C2045F34450815641AB /* Fontisto.ttf in Resources */,
+				4D5C0B4A476047278E38BD1B /* Foundation.ttf in Resources */,
+				B08D1BD9D754478897148E31 /* Ionicons.ttf in Resources */,
+				1D2194DC3026464197B192C9 /* MaterialCommunityIcons.ttf in Resources */,
+				F3BD42522C7841F5ACA1B5EA /* MaterialIcons.ttf in Resources */,
+				8C06832C603C4B49B2E44FEF /* Octicons.ttf in Resources */,
+				2D405CBFBCBD4EABBCC4C5B1 /* SimpleLineIcons.ttf in Resources */,
+				8AAF313E2CE847BE80B94A71 /* Zocial.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7E6017B7E697DE7C94F8BF00 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TRTCSimpleDemo/Pods-TRTCSimpleDemo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TRTCSimpleDemo/Pods-TRTCSimpleDemo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TRTCSimpleDemo/Pods-TRTCSimpleDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB3CDA309A6E7F33FB42C3A0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TRTCSimpleDemo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		812E142A2412403400642B19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FD28D3F124162E2B0080B8A0 /* RTCEntranceViewController.swift in Sources */,
+				7E57C6CF245EC900003F4486 /* VideoView.m in Sources */,
+				812E1490241257D200642B19 /* AppDelegate.swift in Sources */,
+				812E14992412589100642B19 /* RTCViewController.swift in Sources */,
+				7E57C6C0245C62EB003F4486 /* ReactNativeTRTC.m in Sources */,
+				FD3B3A192423B5B8001720A3 /* GenerateTestUserSig.m in Sources */,
+				812E14972412585600642B19 /* MainViewController.swift in Sources */,
+				7E57C6CA245EBA26003F4486 /* VideoViewManager.m in Sources */,
+				812E14A424125B6000642B19 /* LiveViewController.swift in Sources */,
+				7E57C6C3245C6309003F4486 /* ReactNativeTRTC.swift in Sources */,
+				817262A82416C68400265751 /* LivePushViewController.swift in Sources */,
+				FDB94D0C2417BC6000C2AC28 /* LivePlayViewController.swift in Sources */,
+				7EA479832455BEFB00DB8512 /* MainViewControllerBridge.m in Sources */,
+				FDF543BF241A0A2700F21B2A /* LiveRoomManager.swift in Sources */,
+				81E3C986241820EA00366606 /* LiveSubVideoView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		812E1482241257D200642B19 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				812E1483241257D200642B19 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		812E14402412403600642B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		812E14412412403600642B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		812E14432412403600642B19 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D1FFA7F8E251A044AF05C5BB /* Pods-TRTCSimpleDemo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83WZ8VDGSR;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = TRTCSimpleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apophis.TRTCSimpleDemo;
+				PRODUCT_NAME = SimpleDemo;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TRTCSimpleDemo/TRTCSimpleDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		812E14442412403600642B19 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 86D83B858B9CD6F48E284F6B /* Pods-TRTCSimpleDemo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 83WZ8VDGSR;
+				ENABLE_BITCODE = NO;
+				FRAMEWORK_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = TRTCSimpleDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.apophis.TRTCSimpleDemo;
+				PRODUCT_NAME = SimpleDemo;
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_OBJC_BRIDGING_HEADER = "TRTCSimpleDemo/TRTCSimpleDemo-Bridging-Header.h";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		812E14292412403400642B19 /* Build configuration list for PBXProject "TRTCSimpleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812E14402412403600642B19 /* Debug */,
+				812E14412412403600642B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		812E14422412403600642B19 /* Build configuration list for PBXNativeTarget "TRTCSimpleDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				812E14432412403600642B19 /* Debug */,
+				812E14442412403600642B19 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 812E14262412403400642B19 /* Project object */;
+}
